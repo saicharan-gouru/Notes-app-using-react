@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.notes-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  width: 30%;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.notes-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px;
+  border: 0px;
+  background-color: burlywood;
+  border-radius: 5px;
+}
