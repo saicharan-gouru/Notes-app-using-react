@@ -7,13 +7,13 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 80%;
+  width: 50%;
   margin: auto;
 }
 
 .card {
-  width: 30%;
-  border: 2px solid black;
+  width: 25%;
+  border: 1px solid black;
   margin: 10px;
 }
 
@@ -26,6 +26,17 @@
   margin: 10px;
   padding: 10px;
   border: 0px;
-  background-color: burlywood;
+  background-color: skyblue;
+  font-weight: bold;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.title-input {
+  padding: 10px;
+}
+
+.desc-input {
+  padding: 10px;
+  height: 10vh;
 }
